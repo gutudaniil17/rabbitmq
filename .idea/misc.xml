@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/sender/pom.xml" />
+        <option value="$PROJECT_DIR$/reciever/pom.xml" />
+        <option value="$PROJECT_DIR$/reciver2/pom.xml" />
+        <option value="$PROJECT_DIR$/reciever1/pom.xml" />
+        <option value="$PROJECT_DIR$/receiver2/pom.xml" />
+        <option value="$PROJECT_DIR$/receiver1/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/reciever1/pom.xml" />
+        <option value="$PROJECT_DIR$/reciver2/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="temurin-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
