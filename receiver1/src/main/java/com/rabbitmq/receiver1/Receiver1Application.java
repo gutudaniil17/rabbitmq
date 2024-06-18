@@ -9,20 +9,11 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Receiver1Application {
     static final String queueName = "firstQueue";
-    static final String exchangeName = "testExchange";
     @Bean
     Queue queue() {
         return new Queue(queueName, true);
     }
 
-    @Bean
-    Exchange exchange(){
-        return new TopicExchange(exchangeName, false, false);
-    }
-    @Bean
-    Binding binding(Queue queue, Exchange exchange) {
-        return BindingBuilder.bind(queue).to(exchange).with("first.key").noargs();
-    }
 
     @RabbitListener(queues = queueName)
     public void receive1(String message) {
